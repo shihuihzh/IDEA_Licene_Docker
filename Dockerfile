@@ -5,6 +5,6 @@ ADD ./idea /idea/
 RUN chmod 777 /idea/idea
 WORKDIR /idea
 
-ENTRYPOINT ["./idea", "-p", "6666", "-u", "Zhanhao", "-prolongationPeriod", "1000"]
+ENTRYPOINT ["./idea", "-p", "6666", "-u", "Zhanhao", "-prolongationPeriod", "25920000000"]
 
 EXPOSE 6666
