@@ -1,0 +1,6 @@
+idea:
+    image: zhanhao/idea
+    ports:
+        - "6666:6666"
+    restart: always
+    
