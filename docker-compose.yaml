@@ -1,5 +1,5 @@
 idea:
-    image: zhanhao/idea
+    image: zhanhao/lightjbl
     ports:
         - "6666:6666"
     restart: always

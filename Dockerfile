@@ -1,10 +1,10 @@
 FROM busybox
 MAINTAINER <Zhanhao Wong>
 
-ADD ./idea /idea/
-RUN chmod 777 /idea/idea
-WORKDIR /idea
+ADD ./lightjbl /lightjbl/
+RUN chmod 777 /lightjbl/lightjbl
+WORKDIR /lightjbl
 
-ENTRYPOINT ["./idea", "-p", "6666", "-u", "Zhanhao", "-prolongationPeriod", "25920000000"]
+ENTRYPOINT ["./lightjbl", "-p", "6666"]
 
 EXPOSE 6666
